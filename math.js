@@ -55,19 +55,8 @@ function add(){
 	var one = parseFloat(addnumOne.value) || 0;
 	var two = parseFloat(addnumTwo.value) || 0;
 
-//	var ans = prompt("What do you think the sum is?")
-//	var sum = one+two;
-	
-//	addSum.innerHTML = "The sum is: " + sum;
 	var res = addSum.innerHTML = "The sum is " + (one+two) + "!";
-/*	var res = (one + two);
-	if(ans == res)
-	{
-		alert("Good Job " + name + "! You got it correct!")
-	}
-	else{
-		alert("Nice Try! The correct answer is " + res.fontsize(16);
-	}*/
+
 }
 
 function sub(){
